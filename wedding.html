@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Undangan Pernikahan</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="wedding.css">
+</head>
+<body>
+    <header class="hero">
+        <div class="overlay"></div>
+        <div class="hero-content">
+            <p class="invite">The Wedding of</p>
+            <h1 class="couple-name">Aisyah & Fikri</h1>
+            <p class="date">Sabtu, 20 Desember 2025</p>
+
+            <div class="countdown" id="countdown">
+                <div class="time"><span id="days">0</span><small>Hari</small></div>
+                <div class="time"><span id="hours">0</span><small>Jam</small></div>
+                <div class="time"><span id="minutes">0</span><small>Menit</small></div>
+                <div class="time"><span id="seconds">0</span><small>Detik</small></div>
+            </div>
+
+            <p class="subtext" id="countdown-note">Hitung mundur menuju hari bahagia</p>
+            <a class="btn" href="#acara">Lihat Detail Acara</a>
+        </div>
+    </header>
+
+    <main>
+        <section class="section couple" id="mempelai">
+            <h2>Kami yang Berbahagia</h2>
+            <p class="couple-desc">Putra dan Putri dari Keluarga Besar</p>
+            <div class="couple-card">
+                <div class="person">
+                    <div class="avatar" aria-hidden="true"></div>
+                    <h3>Aisyah</h3>
+                    <p>Putri dari Bpk. Ahmad & Ibu Siti</p>
+                </div>
+                <div class="separator">&amp;</div>
+                <div class="person">
+                    <div class="avatar" aria-hidden="true"></div>
+                    <h3>Fikri</h3>
+                    <p>Putra dari Bpk. Rahman & Ibu Dewi</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section event" id="acara">
+            <h2>Detail Acara</h2>
+            <div class="event-grid">
+                <div class="card">
+                    <h3>Akad Nikah</h3>
+                    <p class="event-time">Sabtu, 20 Desember 2025 • 09.00 WIB</p>
+                    <p class="event-place">Masjid Al-Ikhlas, Jakarta</p>
+                </div>
+                <div class="card">
+                    <h3>Resepsi</h3>
+                    <p class="event-time">Sabtu, 20 Desember 2025 • 11.00 - 14.00 WIB</p>
+                    <p class="event-place">Gedung Serbaguna Harmoni, Jakarta</p>
+                </div>
+            </div>
+            <div class="cta">
+                <a class="btn" target="_blank" rel="noopener" href="https://wa.me/6281234567890?text=Konfirmasi%20kehadiran%20untuk%20Aisyah%20%26%20Fikri">Konfirmasi Kehadiran</a>
+                <a class="btn outline" target="_blank" rel="noopener" href="https://maps.google.com/?q=Masjid%20Al-Ikhlas%20Jakarta">Buka Peta</a>
+            </div>
+        </section>
+
+        <section class="section wishes">
+            <h2>Doa & Ucapan</h2>
+            <p>Merupakan kebahagiaan bagi kami apabila Bapak/Ibu/Saudara/i berkenan hadir dan memberikan doa restu.</p>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>© 2025 Aisyah & Fikri</p>
+    </footer>
+
+    <script>
+        window.WEDDING_DATE_ISO = '2025-10-31T09:00:00+07:00';
+    </script>
+    <script src="wedding.js"></script>
+</body>
+</html>
+
+
